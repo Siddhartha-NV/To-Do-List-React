@@ -43,6 +43,10 @@ function App() {
     setNewItem("");
   };
 
+  const handlegithubchange = () =>{
+    console.log("Function for testing changes in github")
+  }
+
   return (
     <div>
       <Header title="Siddhu" />
